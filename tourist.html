@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tourist Guidance</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center center/cover;
+      color: white;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+    }
+
+    nav {
+      background: #333;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #2c3e50;
+      margin-bottom: 20px;
+    }
+
+    .destinations, .tips {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      flex: 1 1 300px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Explore the World with Us</h1>
+    <p>Your smart tourist guide for unforgettable journeys</p>
+  </header>
+
+  <nav>
+    <a href="#destinations">Destinations</a>
+    <a href="#tips">Travel Tips</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="destinations">
+    <h2>Top Destinations</h2>
+    <div class="destinations">
+      <div class="card">
+        <h3>Paris, France</h3>
+        <p>Explore the City of Love with its rich history and iconic Eiffel Tower.</p>
+      </div>
+      <div class="card">
+        <h3>Tokyo, Japan</h3>
+        <p>Discover tradition and technology in one of the most vibrant cities in Asia.</p>
+      </div>
+      <div class="card">
+        <h3>Kerala, India</h3>
+        <p>Relax in the backwaters, enjoy nature, and experience unique culture.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="tips">
+    <h2>Travel Tips</h2>
+    <div class="tips">
+      <div class="card">
+        <h3>Pack Smart</h3>
+        <p>Carry essentials, keep it light, and check weather before you go.</p>
+      </div>
+      <div class="card">
+        <h3>Stay Safe</h3>
+        <p>Research local laws, stay in known areas, and keep your valuables secure.</p>
+      </div>
+      <div class="card">
+        <h3>Be Respectful</h3>
+        <p>Understand local customs, dress appropriately, and be polite.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>Email: support@touristguide.com</p>
+    <p>Phone: +91 98765 43210</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Tourist Guidance. All rights reserved.
+  </footer>
+
+</body>
+</html>
+
